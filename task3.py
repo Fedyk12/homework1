@@ -6,8 +6,6 @@ for word in words:
 count_words = []
 for key in data:
 	count_words.append([key,data[key]])
-
-counts = []
 count_words = sorted(count_words)
 for slovo in range(len(count_words)):
 	print(f'{slovo+1}.',count_words[slovo][0],'-',count_words[slovo][1])

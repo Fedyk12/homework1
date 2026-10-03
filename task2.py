@@ -13,7 +13,8 @@ for n2 in nums1:
 		data1.append(max2)
 if data1 == []:
 	print('Второго по величине элемента не существует')
-print(max2)
+else:
+	print(max2)
 max1 = -1000000000
 max2 = -1000000000
 data2 = []
@@ -26,7 +27,8 @@ for n2 in nums2:
 		data2.append(max2)
 if data2 == []:
 	print('Второго по величине элемента не существует')
-print(n2)
+else:
+	print(max2)
 max1 = -1000000000
 max2 = -100000000
 data3 = []
@@ -39,6 +41,8 @@ for n2 in nums3:
 		data3.append(n2)
 if data3 == []:
 	print('Второго по величине элемента не существует')
+else:
+	print(max2)
 
 
 
